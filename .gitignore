@@ -1,0 +1,34 @@
+# 构建产物
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/zhiduoxing2xls
+
+# 运行/测试输出（testdata 下的样本文件仍然保留）
+*.xls
+*.xlsx
+*.log
+*.csv
+!testdata/**
+/_tmp/
+/.gocache/
+
+# IDE / 编辑器
+.idea/
+.vscode/
+*.iml
+*.swp
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 依赖目录
+/vendor/
+
+# 本地个人配置
+*.local
