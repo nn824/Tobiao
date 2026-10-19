@@ -9,10 +9,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ninglang/zhiduoxing-xls/internal/model"
-	"github.com/ninglang/zhiduoxing-xls/internal/render"
-	"github.com/ninglang/zhiduoxing-xls/internal/spec"
-	"github.com/ninglang/zhiduoxing-xls/internal/xls"
+	"github.com/nn824/Tobiao/internal/model"
+	"github.com/nn824/Tobiao/internal/render"
+	"github.com/nn824/Tobiao/internal/spec"
+	"github.com/nn824/Tobiao/internal/xls"
 )
 
 // 列宽（单位 1/256 字符宽），与真实文件一致：

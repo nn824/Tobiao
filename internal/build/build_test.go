@@ -5,10 +5,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ninglang/zhiduoxing-xls/internal/model"
-	"github.com/ninglang/zhiduoxing-xls/internal/render"
-	"github.com/ninglang/zhiduoxing-xls/internal/spec"
-	"github.com/ninglang/zhiduoxing-xls/internal/xls"
+	"github.com/nn824/Tobiao/internal/model"
+	"github.com/nn824/Tobiao/internal/render"
+	"github.com/nn824/Tobiao/internal/spec"
+	"github.com/nn824/Tobiao/internal/xls"
 )
 
 // sampleDoc 构造一份与智多星导出结构一致的最小数据：

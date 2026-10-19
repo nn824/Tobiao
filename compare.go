@@ -7,11 +7,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	cmp "github.com/ninglang/zhiduoxing-xls/internal/compare"
-	"github.com/ninglang/zhiduoxing-xls/internal/model"
-	"github.com/ninglang/zhiduoxing-xls/internal/safejson"
-	"github.com/ninglang/zhiduoxing-xls/internal/spec"
-	"github.com/ninglang/zhiduoxing-xls/internal/xls"
+	cmp "github.com/nn824/Tobiao/internal/compare"
+	"github.com/nn824/Tobiao/internal/model"
+	"github.com/nn824/Tobiao/internal/safejson"
+	"github.com/nn824/Tobiao/internal/spec"
+	"github.com/nn824/Tobiao/internal/xls"
 )
 
 // CompareOptions 是「计算书比对」的参数。

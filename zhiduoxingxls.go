@@ -35,13 +35,13 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ninglang/zhiduoxing-xls/internal/build"
-	"github.com/ninglang/zhiduoxing-xls/internal/geom"
-	"github.com/ninglang/zhiduoxing-xls/internal/grid"
-	"github.com/ninglang/zhiduoxing-xls/internal/model"
-	"github.com/ninglang/zhiduoxing-xls/internal/safejson"
-	"github.com/ninglang/zhiduoxing-xls/internal/spec"
-	"github.com/ninglang/zhiduoxing-xls/internal/xls"
+	"github.com/nn824/Tobiao/internal/build"
+	"github.com/nn824/Tobiao/internal/geom"
+	"github.com/nn824/Tobiao/internal/grid"
+	"github.com/nn824/Tobiao/internal/model"
+	"github.com/nn824/Tobiao/internal/safejson"
+	"github.com/nn824/Tobiao/internal/spec"
+	"github.com/nn824/Tobiao/internal/xls"
 )
 
 // 计算结果分组名，供 Options.Section 使用。

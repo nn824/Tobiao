@@ -3,7 +3,7 @@ package compare
 import (
 	"testing"
 
-	"github.com/ninglang/zhiduoxing-xls/internal/xls"
+	"github.com/nn824/Tobiao/internal/xls"
 )
 
 // buildSheet 按「绘图输入构件工程量计算书」的版式造一张小表。

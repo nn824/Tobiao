@@ -15,7 +15,7 @@
 导入根包 `zhiduoxingxls`，**入参就是测试结果的 JSON 文件路径**：
 
 ```go
-import zhiduoxingxls "github.com/ninglang/zhiduoxing-xls"
+import zhiduoxingxls "github.com/nn824/Tobiao"
 
 func main() {
     // 最短写法：只传 JSON 文件路径，输出同名 .xls
@@ -49,15 +49,15 @@ rep, err := zhiduoxingxls.Convert(jsonPath, zhiduoxingxls.Options{
 ### 安装
 
 ```bash
-go get github.com/ninglang/zhiduoxing-xls
+go get github.com/nn824/Tobiao
 ```
 
 ```go
-import zhiduoxingxls "github.com/ninglang/zhiduoxing-xls"
+import zhiduoxingxls "github.com/nn824/Tobiao"
 ```
 
 **没有任何第三方依赖**，不会给你的项目引入额外的供应链；`go.sum` 保持为空。
-需要锁定版本时用 `go get github.com/ninglang/zhiduoxing-xls@v0.1.0`。
+需要锁定版本时用 `go get github.com/nn824/Tobiao@v0.1.0`。
 
 <details>
 <summary>想直接引用本地副本（尚未发布 tag 时）</summary>
@@ -66,8 +66,8 @@ import zhiduoxingxls "github.com/ninglang/zhiduoxing-xls"
 目录里没有它会报 `go: open .\go.mod: The system cannot find the file specified.`），然后：
 
 ```bash
-go mod edit -require=github.com/ninglang/zhiduoxing-xls@v0.0.0
-go mod edit -replace=github.com/ninglang/zhiduoxing-xls=../zhiduoxing-xls
+go mod edit -require=github.com/nn824/Tobiao@v0.0.0
+go mod edit -replace=github.com/nn824/Tobiao=../zhiduoxing-xls
 go mod tidy
 ```
 

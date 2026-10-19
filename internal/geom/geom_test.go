@@ -4,7 +4,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/ninglang/zhiduoxing-xls/internal/grid"
+	"github.com/nn824/Tobiao/internal/grid"
 )
 
 // 一份最小模型：柱（点）、门（点 + 洞口宽）、墙（线）、三跨梁（3 条线）、

@@ -27,8 +27,8 @@ import (
 	"math"
 	"sort"
 
-	"github.com/ninglang/zhiduoxing-xls/internal/grid"
-	"github.com/ninglang/zhiduoxing-xls/internal/safejson"
+	"github.com/nn824/Tobiao/internal/grid"
+	"github.com/nn824/Tobiao/internal/safejson"
 )
 
 // Segment 是模型里的一段线（墙中心线、梁中心线、板轮廓边等）。

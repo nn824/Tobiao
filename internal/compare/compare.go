@@ -10,8 +10,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ninglang/zhiduoxing-xls/internal/render"
-	"github.com/ninglang/zhiduoxing-xls/internal/xls"
+	"github.com/nn824/Tobiao/internal/render"
+	"github.com/nn824/Tobiao/internal/xls"
 )
 
 // 比对结果。

@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	zhiduoxingxls "github.com/ninglang/zhiduoxing-xls"
-	"github.com/ninglang/zhiduoxing-xls/internal/xls"
+	zhiduoxingxls "github.com/nn824/Tobiao"
+	"github.com/nn824/Tobiao/internal/xls"
 )
 
 // mustConvertWithPosition 生成一份带「图元位置」的计算书，供比对测试使用。

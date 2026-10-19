@@ -9,7 +9,7 @@ import (
 	"testing"
 	"unicode/utf16"
 
-	zhiduoxingxls "github.com/ninglang/zhiduoxing-xls"
+	zhiduoxingxls "github.com/nn824/Tobiao"
 )
 
 // oleMagic 是 OLE2 复合文档的文件头，也是 .xls 容器的标志。
